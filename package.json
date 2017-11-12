@@ -5,9 +5,9 @@
   "main": "index.js",
   "license": "MIT",
   "author": {
-    "name": "Matt DesLauriers",
-    "email": "dave.des@gmail.com",
-    "url": "https://github.com/mattdesl"
+    "name": "Dragon Vortex",
+    "email": "not specified",
+    "url": "https://github.com/DragonVortex"
   },
   "dependencies": {
     "array-range": "^1.0.1",
@@ -35,7 +35,8 @@
     "raf-loop": "^1.0.1",
     "randf": "^1.0.0",
     "soundcloud-badge": "^1.0.0",
-    "webgl-context": "^2.1.2"
+    "webgl-context": "^2.1.2",
+    "webpack": "^3.8.1"
   },
   "devDependencies": {
     "babelify": "^6.0.2",
