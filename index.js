@@ -5,7 +5,6 @@ const fit = require('canvas-fit')(canvas, window, dpr)
 const loop = require('raf-loop')
 const engine = require('./src/engine')(gl)
 const background = require('./src/background')(gl)
-const audio = require('./src/audio')(gl)
 
 require('domready')(() => {
   window.addEventListener('resize', fit, false)
