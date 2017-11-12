@@ -35,8 +35,7 @@
     "raf-loop": "^1.0.1",
     "randf": "^1.0.0",
     "soundcloud-badge": "^1.0.0",
-    "webgl-context": "^2.1.2",
-    "webpack": "^3.8.1"
+    "webgl-context": "^2.1.2"
   },
   "devDependencies": {
     "babelify": "^6.0.2",
@@ -44,7 +43,8 @@
     "budo": "^5.1.4",
     "garnish": "^3.2.1",
     "uglify-js": "^2.4.20",
-    "watchify": "^3.1.1"
+    "watchify": "^3.1.1",
+    "webpack": "^3.8.1"
   },
   "scripts": {
     "build": "browserify index.js -t babelify -t glslify | uglifyjs -cm > bundle.js",
